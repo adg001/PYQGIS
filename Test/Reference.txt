@@ -1,0 +1,3 @@
+Reference
+
+https://gis.stackexchange.com/questions/210295/create-square-buffers-around-points-in-qgis-with-python
