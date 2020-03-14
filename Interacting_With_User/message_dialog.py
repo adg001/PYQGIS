@@ -2,8 +2,8 @@
 from PyQt5.QtGui import *
 
 #step 2. Then, we'll create the message dialog:
-msg=QMessageBox()
-#msg=QgsMessageBar()
+#msg=QMessageBox()
+msg=QgsMessageBar()
 
 #step 3. Next, we'll set the message we want to display:
 msg.setText("This is the first message")
