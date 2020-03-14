@@ -1,0 +1,10 @@
+filepath="/home/abhishek/Desktop/M.Sc-GIS/data/SatImage/SatImage.tif"
+layer=iface.addRasterLayer(filepath,"Satellite","gdal")
+print("layer width=",layer.width())
+print("layer hight=",layer.height())
+print(layer.rasterType())
+print(layer.bandCount())
+print(layer.metadata())
+print(layer.renderer())
+print(layer.rasterUnitsPerPixelX())
+print(layer.rasterUnitsPerPixelY())
